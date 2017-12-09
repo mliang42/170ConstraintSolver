@@ -1,4 +1,6 @@
 This is a series of generators and solvers for a constraint satisfication problem for CS170.
+Basic idea of how the problem works: you have a set number of wizards, and you want to figure out an order that sorts them by age, but you are not provided their exact ages.
+Instead, you are provided a list of constraints of the form "w1 w2 w3". This means that wizard3's age is NOT between wizard1 and wizard2.
 
 bruteforce.py generates a randomized sequence that meets an input constraint.
 ordered.py generates a sequence with a specific order, see code for details.
@@ -21,5 +23,5 @@ If there already exists an output file with the same name,it will be overwritten
 output_validator.py is an edited version of the staff provided validator. It does NOT print out the number of constraints satisfied and
 returns it instead. 
 
-The version of python this was tested on is 3.4.3. It should work for almost any version of python3.
+The version of python this was tested on is 3.4.3. It should work for almost any version of python3. Developed in conjunction with Shun Lin.
 (This was developed in a private repo and moved to a public one once the competition finished)
