@@ -15,3 +15,4 @@ output_validator.py is an edited version of the staff provided validator. It doe
 returns it instead. 
 
 The version of python this was tested on is 3.4.3. It should work for almost any version of python3.
+(This was developed in a private repo and moved to a public one once the competition finished)
