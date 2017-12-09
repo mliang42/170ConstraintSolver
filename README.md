@@ -1,4 +1,10 @@
-The solvers are named bt_solver.py and min_conflicts.py. 
+This is a series of generators and solvers for a constraint satisfication problem for CS170.
+
+bruteforce.py generates a randomized sequence that meets an input constraint.
+ordered.py generates a sequence with a specific order, see code for details.
+obfuscator.py obfuscates wizards names and shifts rows around.
+
+The solvers are named bt_solver.py and min_conflicts.py and are in the outputs folder.
 The first one uses the backtracking algorithm and the second uses the min-conflicts algorithm.
 To run the algorithms, place bt_solver.py, min_conflicts.py, and output_validator.py in the same folder. 
 Then, run the following on the command line:
