@@ -2,7 +2,8 @@ This is a series of generators and solvers for a constraint satisfication proble
 
 bruteforce.py generates a randomized sequence that meets an input constraint.
 ordered.py generates a sequence with a specific order, see code for details.
-obfuscator.py obfuscates wizards names and shifts rows around.
+obfuscator.py obfuscates wizards names and shifts rows around. These three files are only if you want to generate your own inputs.
+To run them: python bruteforce.py filename filesize(20, 35, or 50)
 
 The solvers are named bt_solver.py and min_conflicts.py and are in the outputs folder.
 The first one uses the backtracking algorithm and the second uses the min-conflicts algorithm.
